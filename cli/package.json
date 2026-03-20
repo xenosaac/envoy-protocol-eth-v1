@@ -1,0 +1,22 @@
+{
+  "name": "@on-chain-agent/cli",
+  "version": "0.1.0",
+  "description": "CLI tool for the On-Chain Agent SDK",
+  "type": "module",
+  "bin": {
+    "on-chain-agent": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "@on-chain-agent/core": "workspace:*",
+    "@on-chain-agent/eth-sdk": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

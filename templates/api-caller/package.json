@@ -1,0 +1,20 @@
+{
+  "name": "@on-chain-agent/template-api-caller",
+  "version": "0.1.0",
+  "description": "API caller agent template for the On-Chain Agent SDK",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@on-chain-agent/core": "workspace:*",
+    "@on-chain-agent/eth-sdk": "workspace:*",
+    "viem": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

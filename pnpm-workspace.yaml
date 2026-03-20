@@ -1,0 +1,5 @@
+packages:
+  - "core"
+  - "framework_eth/sdk"
+  - "cli"
+  - "templates/*"

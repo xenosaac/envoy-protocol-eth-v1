@@ -1,0 +1,27 @@
+{
+  "name": "@on-chain-agent/eth-sdk",
+  "version": "0.1.0",
+  "description": "Ethereum SDK for the On-Chain Agent SDK",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "viem": "^2.0.0",
+    "@on-chain-agent/core": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.0.0"
+  }
+}

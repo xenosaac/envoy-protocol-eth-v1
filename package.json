@@ -1,0 +1,17 @@
+{
+  "name": "on-chain-agent-sdk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SDK for smart contracts to instruct AI agents on the open internet",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "test:contracts": "cd framework_eth/contracts && forge test",
+    "test:sdk": "cd framework_eth/sdk && pnpm test",
+    "clean": "pnpm -r clean"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+*.log
+
+# Foundry
+framework_eth/contracts/out/
+framework_eth/contracts/cache/
+framework_eth/contracts/lib/
+
+# Coverage
+coverage/
+lcov.info
